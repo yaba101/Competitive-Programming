@@ -3,7 +3,7 @@
  * @return {number[]}
  */
 const smallerNumbersThanCurrent = (nums) => {
-    const count = new Array(101).fill(0)
+    const count = new Array(100).fill(0)
     const result = new Array(nums.length).fill(0)
 
     for (let i = 0; i < nums.length; i++) {
@@ -20,5 +20,4 @@ const smallerNumbersThanCurrent = (nums) => {
         }
     }
     return result
-};
-
+}
